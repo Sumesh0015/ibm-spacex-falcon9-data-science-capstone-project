@@ -1,6 +1,6 @@
 # 🚀 SpaceX Falcon 9 Landing Prediction
 <p align="center">
-  <img src="https://www.spacex.com/static/images/backgrounds/f9_static_fire.jpg" width="750">
+  <img src="falcon9-launch.jpg" width="750">
 </p>
 
 # IBM Data Science Capstone Project
