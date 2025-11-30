@@ -1,16 +1,24 @@
-# 🚀 SpaceX Falcon 9 – Data Science Capstone Project
-IBM Data Science Professional Certificate
-📌 Project Overview
+# 🚀 SpaceX Falcon 9 Landing Prediction
+IBM Data Science Capstone Project
+<p align="center"> <img src="Spacex-launch-record-dashboard.png" width="650"> </p>
+# ⭐ Project Summary
 
-This repository contains the complete end-to-end capstone project required for the IBM Data Science Certification.
-The main objective is to predict whether the first stage of a SpaceX Falcon 9 rocket will successfully land, enabling accurate launch cost estimation for commercial clients.
+This project predicts the successful landing of the SpaceX Falcon 9 first stage, which is essential because successful landings reduce launch costs from $62M to much lower values using reusable boosters.
 
-The project includes API data collection, web scraping, data wrangling, EDA, machine learning, mapping with Folium, and a fully interactive Plotly Dash Dashboard.
+Using real SpaceX launch data, the project applies:
+✔ API data collection
+✔ Web scraping
+✔ Data wrangling & cleaning
+✔ SQL queries
+✔ Exploratory Data Analysis (EDA)
+✔ Geospatial analysis with Folium
+✔ Machine Learning modeling
+✔ Interactive dashboard using Plotly Dash
+✔ Final presentation (PPT)
 
-📁 Repository Structure
+This repository contains all notebooks, scripts, dataset, dashboard, maps, and presentation.
 
-Your current structure (as visible in the repo):
-
+## 📁 Repository Contents
 📦 ibm-spacex-falcon9-data-science-capstone-project
 │
 ├── 1_spacex-data-collection.ipynb
@@ -30,134 +38,167 @@ Your current structure (as visible in the repo):
 ├── Success-Failure-outcome-on-map.png
 ├── spacex-payload vs success.png
 │
+├── Final-Presentation-spacex-falcon9-data-science-capstone.pptx
+│
 ├── LICENSE
 └── README.md
 
-🧪 Project Workflow
-1️⃣ Data Collection
+🔍 Project Workflow
+1️⃣ Data Collection (API)
 
-Retrieved launch data using the SpaceX REST API
+Collected SpaceX Falcon 9 launch data using:
 
-Converted JSON results into a clean dataframe
+SpaceX API
 
-Exported as dataset.csv
+JSON parsing
 
-2️⃣ Web Scraping
+Automated data extraction
 
-Scraped Falcon 9 launch tables from Wikipedia
+2️⃣ Web Scraping (Wikipedia)
 
-Used BeautifulSoup for parsing
+Scraped additional launch details using:
 
-Cleaned and merged with API data
+BeautifulSoup
+
+HTML table extraction
+
+Data consistency checks
 
 3️⃣ Data Wrangling
 
-Removed irrelevant columns
+Cleaned and merged datasets
 
-Handled missing values
+Converted categorical values
 
-Created landing outcome labels
+Engineered landing success labels
 
-Feature engineering for ML
+Removed missing values & duplicates
 
 4️⃣ SQL-Based EDA
 
-Analyzed success rate per launch site
+Performed analytical queries:
 
-Query-based filtering of payload range
+Launch success by year
 
-Most frequent orbits and boosters
+Booster version analysis
 
-5️⃣ Python EDA & Visualizations
+Orbit success rate
 
-Scatter plots, bar charts, heatmaps
+Payload mass comparisons
 
-Folium maps for:
+5️⃣ Python EDA
 
-Launch site locations
+Generated visual insights:
 
-Success/failure outcomes
+Payload vs landing success
 
-Launch site proximity to highways, coastlines, and railroads
+Booster category performance
 
-6️⃣ Machine Learning
+Launch site comparison
 
-Models tested:
+Outcome distributions
+
+6️⃣ Launch Site Mapping (Folium)
+
+Created interactive maps:
+
+Launch site coordinates
+
+Success & failure markers
+
+Proximity to coastline, railways, highways
+
+🤖 Machine Learning Modeling
+
+Models trained:
 
 Logistic Regression
 
-Decision Tree
+K-Nearest Neighbors
 
 Support Vector Machine
 
-K-Nearest Neighbors
+Decision Tree Classifier
 
-Best performing model: Decision Tree Classifier (tuned)
+Best Model: Decision Tree
 
-7️⃣ Interactive Plotly Dash App
+High accuracy
 
-Your dashboard (7_dash_app.py) includes:
+Interpretable
 
-Launch site dropdown
+Works well with engineered features
 
-Payload mass range slider
+📊 Dashboard (Plotly Dash)
 
-Interactive pie chart
+The interactive dashboard (from 7_dash_app.py) allows users to:
 
-Interactive scatter plot
+Select launch sites
 
-🗂 Dataset
+Adjust payload mass range
 
-The dataset used for prediction:
+View interactive scatter plots
 
-📄 dataset.csv
+Inspect launch success charts
 
-Contains:
+📂 Dataset
 
-Flight Number
+File: dataset.csv
+Includes the following columns:
 
-Launch Site
+FlightNumber
 
-Booster Version
+PayloadMass
 
 Orbit
 
-Payload Mass
+LaunchSite
 
-Landing Outcome (Class Label)
+BoosterVersion
 
-Launch Success
+Outcome
 
-📊 Included Visual Outputs
+LandingSuccess (target)
 
-These images are included in your repo and automatically displayed below:
+🖼 Project Visuals
+Launch Sites
+<img src="Spacex-launch-sites-on-map.png" width="600">
+Success & Failure Outcomes
+<img src="Success-Failure-outcome-on-map.png" width="600">
+Launch Site Proximity
+<img src="Launch-site-proximity-on-map.png" width="600">
+Payload–Success Relationship
+<img src="spacex-payload%20vs%20success.png" width="600">
+🎤 Final Presentation (PPT)
 
-🔹 Launch Sites on Map
+📌 The project presentation is included:
+Final-Presentation-spacex-falcon9-data-science-capstone.pptx
 
-🔹 Launch Success/Failure Map
+It summarizes:
 
-🔹 Launch Site Proximity Analysis
+Objective
 
-🔹 Payload vs Success Plot
+Approach
 
-🔹 Final Dashboard
+Analysis
+
+Results
+
+Machine learning performance
+
+Conclusion
 
 ▶️ Running the Project
-Run Jupyter Notebooks
+Run notebooks
 jupyter notebook
 
-Run the Dash App
+Run the Dash app
 python 7_dash_app.py
-
-
-Open the local URL shown in your console.
 
 📜 License
 
-This project is released under the MIT License.
-See the LICENSE file for details.
+This project is licensed under the MIT License.
 
-👤 Author
+## 👤 Author
 
-Sumesh
-GitHub: https://github.com/Sumesh0015
+## Sumesh
+## GitHub: https://github.com/Sumesh0015
