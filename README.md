@@ -1,10 +1,6 @@
 # 🚀 SpaceX Falcon 9 Landing Prediction
-<p align="center">
-  <img src="falcon9-launch.jpg" width="750">
-</p>
-
-# IBM Data Science Capstone Project
-# ⭐ Project Summary
+## IBM Data Science Capstone Project
+## ⭐ Project Summary
 
 This project predicts the successful landing of the SpaceX Falcon 9 first stage, which is essential because successful landings reduce launch costs from $62M to much lower values using reusable boosters.
 
