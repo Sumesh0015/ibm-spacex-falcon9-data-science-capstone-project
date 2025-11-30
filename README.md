@@ -1,6 +1,9 @@
 # 🚀 SpaceX Falcon 9 Landing Prediction
-IBM Data Science Capstone Project
-<p align="center"> <img src="Spacex-launch-record-dashboard.png" width="650"> </p>
+<p align="center">
+  <img src="https://www.spacex.com/static/images/backgrounds/f9_static_fire.jpg" width="750">
+</p>
+
+# IBM Data Science Capstone Project
 # ⭐ Project Summary
 
 This project predicts the successful landing of the SpaceX Falcon 9 first stage, which is essential because successful landings reduce launch costs from $62M to much lower values using reusable boosters.
@@ -166,10 +169,12 @@ Success & Failure Outcomes
 <img src="Success-Failure-outcome-on-map.png" width="600">
 Launch Site Proximity
 <img src="Launch-site-proximity-on-map.png" width="600">
+Dashboard launch Records
+<p align="center"> <img src="Spacex-launch-record-dashboard.png" width="650"> </p>
 Payload–Success Relationship
 <img src="spacex-payload%20vs%20success.png" width="600">
-🎤 Final Presentation (PPT)
 
+## 🎤 Final Presentation (PPT)
 📌 The project presentation is included:
 Final-Presentation-spacex-falcon9-data-science-capstone.pptx
 
