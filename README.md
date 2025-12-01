@@ -1,4 +1,6 @@
 # 🚀 SpaceX Falcon 9 Landing Prediction
+![spacex](https://github.com/user-attachments/assets/37b841ff-149f-40af-9877-2d59d8bab256)
+
 ## IBM Data Science Capstone Project
 ## ⭐ Project Summary
 
